@@ -1,18 +1,18 @@
 class Thermark < Formula
   desc "Print thermal labels locally without a vendor app"
   homepage "https://github.com/kahwee/thermark"
-  version "0.32.0"
+  version "0.33.0"
   license "MIT"
   depends_on :macos
 
   on_arm do
-    url "https://github.com/kahwee/thermark/releases/download/v0.32.0/thermark-0.32.0-macOS-ARM64-ble.tar.gz"
-    sha256 "f6abac76c5b359d35f2a9a2c69838b87951f175a9de429cf8998e735913fd4e5"
+    url "https://github.com/kahwee/thermark/releases/download/v0.33.0/thermark-0.33.0-macOS-ARM64-ble.tar.gz"
+    sha256 "813b20a138b7558dc2fd7229716ff6ab484cda896e8d0e1051aaea266ecf5606"
   end
 
   on_intel do
-    url "https://github.com/kahwee/thermark/releases/download/v0.32.0/thermark-0.32.0-macOS-X64-ble.tar.gz"
-    sha256 "b642fd41b9e3e70f98d4789b53b5664020e62428ba22e661c932d5ee4cff4a4e"
+    url "https://github.com/kahwee/thermark/releases/download/v0.33.0/thermark-0.33.0-macOS-X64-ble.tar.gz"
+    sha256 "00510f0dae5fff67a1184d8e66a72c1b27aebb555509e31159208e86dfc4ee8d"
   end
 
   def install
