@@ -7,6 +7,7 @@ BLE-only macOS binary for Apple Silicon or Intel. No Rust compiler is needed.
 brew install kahwee/thermark/thermark
 thermark scan --save
 thermark doctor --use-config
+thermark qr --url https://example.com --text "Hello, label!" --label 50x30
 ```
 
 B1 over BLE is hardware-tested. Other profiles are experimental and require
